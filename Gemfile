@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # ActiveModelSerializers brings convention over configuration to your JSON generation.
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem "devise"
+
 
 
 # End Gems by Mayconn
