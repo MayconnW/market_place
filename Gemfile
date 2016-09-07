@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'active_model_serializers', '~> 0.10.0'
 
 
+
 # End Gems by Mayconn
 
 # Use ActiveModel has_secure_password
@@ -44,6 +45,10 @@ group :development, :test do
   
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  
+  gem "rspec-rails", "~> 2.14"
+  gem "factory_girl_rails"
+  gem 'ffaker'
   
 end
 
