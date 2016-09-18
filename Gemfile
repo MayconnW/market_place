@@ -48,12 +48,17 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   
-  gem "rspec-rails", "~> 2.14"
+  gem "rspec-rails" #"~> 2.14"
   gem "factory_girl_rails"
   gem 'ffaker'
-  gem "shoulda-matchers"
   
 end
+
+group :test do
+  gem "email_spec"
+  gem 'shoulda-matchers', '~> 3.1'
+end
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
